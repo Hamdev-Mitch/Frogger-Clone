@@ -24,8 +24,8 @@ var Engine = (function(global) {
         ctx = canvas.getContext('2d'),
         lastTime;
 
-    canvas.width = 808;
-    canvas.height = 808;
+    canvas.width = 909;
+    canvas.height = 1100;
     doc.body.appendChild(canvas);
 
     /* This function serves as the kickoff point for the game loop itself
@@ -109,16 +109,19 @@ var Engine = (function(global) {
          */
         var rowImages = [
                 'images/water-block.png',   // Top row is water
+                'images/sand-block.png',    // Sand block created by Mitchell Hamilton using Affinity Designer
                 'images/stone-block.png',   // Row 1 of 3 of stone
                 'images/stone-block.png',   // Row 2 of 3 of stone
-                'images/stone-block.png',
-                'images/stone-block.png',
                 'images/stone-block.png',   // Row 3 of 3 of stone
-                'images/grass-block.png',   // Row 1 of 2 of grass
-                'images/grass-block.png'    // Row 2 of 2 of grass
+                'images/grass-block.png',   // Grass landing strip
+                'images/stone-block.png',   // Row 1 of 3 of stone
+                'images/stone-block.png',   // Row 2 of 3 of stone
+                'images/stone-block.png',   // Row 3 of 3 of stone
+                'images/grass-block.png',   // Starting grass
+                'images/grass-block.png'    // Starting grass
             ],
-            numRows = 8,
-            numCols = 8,
+            numRows = 11,
+            numCols = 10,
             row, col;
 
         // Before drawing, clear existing canvas
@@ -141,7 +144,7 @@ var Engine = (function(global) {
             }
         }
 
-        renderEntities();
+        // renderEntities();
     }
 
     /* This function is called by the render function and is called on each game
@@ -176,7 +179,9 @@ var Engine = (function(global) {
         'images/water-block.png',
         'images/grass-block.png',
         'images/enemy-bug.png',
+        'images/sand-block.png',
         'images/char-boy.png'
+
     ]);
     Resources.onReady(init);
 
