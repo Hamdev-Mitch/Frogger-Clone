@@ -1,20 +1,27 @@
-# Classic Arcade Game Clone Project
+# Frogger Clone 
 
 ## Table of Contents
 
-- [Instructions](#instructions)
-- [Contributing](#contributing)
+- [How To Run the Game](#howtorun)
+- [How To Play The Game](#howtoplay)
+- [Acknowledgements](#acknowledgements)
 
-## Instructions
+## How To Run The Game
 
-Use this [rubric](https://review.udacity.com/#!/rubrics/15/view) for self-checking your submission.
+Option 1: 
 
-Make sure the functions you write are **object-oriented** - either class functions (like `Player` and `Enemy`) or class prototype functions such as `Enemy.prototype.checkCollisions`. Also make sure that the keyword `this` is used appropriately within your class and class prototype functions to refer to the object the function is called upon.
+Go to this live URL [insert URL].
 
-Your **README.md** file should be updated with instructions on both how to 1. Run and 2. Play your arcade game.
+Option 2: 
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+Download the source files through github [insert URL].
+Open the index.html file in your browser.
 
-## Contributing
+## How To Play The Game
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+
+
+
+## Acknowledgements
+
+The starter files for this game were pulled from the Github page of Udacity's Frontend Nanodegree Program (https://github.com/udacity/frontend-nanodegree-arcade-game).
