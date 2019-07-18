@@ -95,6 +95,7 @@ var Engine = (function(global) {
             enemy.update(dt);
         });
         player.update();
+        // Add gem update here
     }
 
     /* This function initially draws the "game level", it will then call
@@ -144,7 +145,7 @@ var Engine = (function(global) {
             }
         }
 
-        // renderEntities();
+        renderEntities();
     }
 
     /* This function is called by the render function and is called on each game
@@ -180,8 +181,11 @@ var Engine = (function(global) {
         'images/grass-block.png',
         'images/enemy-bug.png',
         'images/sand-block.png',
-        'images/char-boy.png'
-
+        'images/char-cat-girl.png',
+        'images/char-princess-girl.png',
+        'images/char-boy.png',
+        'images/char-horn-girl.png',
+        'images/char-pink-girl.png'
     ]);
     Resources.onReady(init);
 
